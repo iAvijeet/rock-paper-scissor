@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8dacc39; /* Light beige/crema color */
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #555;
+    margin-top: 0;
+  }
+
+  #startButton, #restartButton {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #d28142; /* Gold color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #startButton:hover, #restartButton:hover {
+    background-color: #c0892b; /* Darker shade of gold */
+  }
+
+  #gameContainer {
+    margin-top: 50px;
+  }
+
+  .gameButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #008CBA; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .gameButton:hover {
+    background-color: #007396; /* Darker shade of blue */
+  }
+
+  #result, #finalResult {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .hidden {
+    display: none;
+  }
